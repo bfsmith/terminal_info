@@ -1,0 +1,36 @@
+{
+  "name": "info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "i": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint .",
+    "build": "tsc && chmod +x ./index.js",
+    "start": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/inquirer": "^0.0.35",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^8.0.29",
+    "@types/ramda": "^0.24.13",
+    "@types/request-promise-native": "^1.0.6",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "inquirer": "^3.3.0",
+    "moment": "^2.18.1",
+    "ramda": "^0.24.1",
+    "request": "^2.82.0",
+    "request-promise-native": "^1.0.4"
+  }
+}
