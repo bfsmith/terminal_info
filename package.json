@@ -22,6 +22,7 @@
     "@types/node": "^8.0.29",
     "@types/ramda": "^0.24.13",
     "@types/request-promise-native": "^1.0.6",
+    "@types/systeminformation": "^3.23.0",
     "tslint": "^5.7.0",
     "typescript": "^2.5.2"
   },
@@ -29,8 +30,10 @@
     "chalk": "^2.1.0",
     "inquirer": "^3.3.0",
     "moment": "^2.18.1",
+    "osx-temperature-sensor": "^1.0.1",
     "ramda": "^0.24.1",
     "request": "^2.82.0",
-    "request-promise-native": "^1.0.4"
+    "request-promise-native": "^1.0.4",
+    "systeminformation": "^3.30.2"
   }
 }

@@ -134,6 +134,10 @@
     "@types/rx-lite-time" "*"
     "@types/rx-lite-virtualtime" "*"
 
+"@types/systeminformation@^3.23.0":
+  version "3.23.0"
+  resolved "https://registry.yarnpkg.com/@types/systeminformation/-/systeminformation-3.23.0.tgz#50c9e7b7c52cb873ea9b641cf9f27ec06b1a14fb"
+
 "@types/through@*":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/through/-/through-0.0.29.tgz#72943aac922e179339c651fa34a4428a4d722f93"
@@ -576,6 +580,10 @@ os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
 
+osx-temperature-sensor@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/osx-temperature-sensor/-/osx-temperature-sensor-1.0.1.tgz#a37eabeb79a2a01ec4bad11a7888fd0ccd95c080"
+
 path-is-absolute@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
@@ -738,6 +746,10 @@ supports-color@^4.0.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-4.4.0.tgz#883f7ddabc165142b2a61427f3352ded195d1a3e"
   dependencies:
     has-flag "^2.0.0"
+
+systeminformation@^3.30.2:
+  version "3.30.2"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-3.30.2.tgz#7cbf29bbdaf8b9939cca57bad66ac28740a1ab25"
 
 through@^2.3.6:
   version "2.3.8"
