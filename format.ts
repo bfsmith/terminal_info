@@ -1,6 +1,6 @@
 import * as C from 'chalk';
 
-import { IBatteryStats } from './system';
+import { IBatteryStats, IMemoryStats } from './system';
 
 export const formatHighTemp = (temp: number): string => C.red(`${temp}`);
 export const formatLowTemp = (temp: number): string => C.blue(`${temp}`);
@@ -10,6 +10,8 @@ export const formatWeather = (weather: string): string => {
       return C.white(weather);
     case 'Clouds':
       return C.gray(weather);
+      case 'Rain':
+        return C.cyan(weather);
     default:
       return weather;
   }
@@ -59,3 +61,12 @@ export const formatBatteryCharging = (battery: IBatteryStats): string => {
       ? C.blue('charged')
       : C.yellow('not charging'));
 };
+
+export const formatMemoryUsage = (mem: IMemoryStats): string => {
+  return `RAM: ${bToGb(mem.used).toPrecision(2)}/${bToGb(mem.total)} GB (${Math.round(100 * mem.used / mem.total)}%)`;
+};
+
+const toKb = (bytes: number): number => bytes / 1024;
+const toMb = (kb: number): number => kb / 1024;
+const toGb = (mb: number): number => mb / 1024;
+const bToGb = (bytes: number): number => toGb(toMb(toKb(bytes)));

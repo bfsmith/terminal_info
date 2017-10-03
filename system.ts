@@ -55,7 +55,3 @@ const getMemoryStats = async (): Promise<IMemoryStats> =>
 
 const procSpeedGhz = (cpuInfo: any): number =>
   cpuInfo.speed / 1000;
-
-const toKb = (bytes: number): number => bytes / 1024;
-const toMb = (kb: number): number => kb / 1024;
-const toGb = (mb: number): number => mb / 1024;
